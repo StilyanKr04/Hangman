@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class hangman {
 
-    private static String[] words = { "terminator", "banana", "computer", "cow", "rain", "water", "cum", "jesus" };
+    private static String[] words = { "terminator", "banana", "computer", "cow", "rain", "cum", "jesus" };
     private static String word = words[(int) (Math.random() * words.length)];
     private static String asterisk = new String(new char[word.length()]).replace("\0", "_");
     private static int count = 0;
